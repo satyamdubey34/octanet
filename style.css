@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    
+  }
+  .container p{
+  font-size: 20px;
+  }
+
+  .header {
+    background-color: #3498db;
+    color: #f0f0f5;
+    padding: 10px 0;
+  }
+
+  .header h1 {
+    margin: 0;
+    padding: 20px;
+  }
+
+.navbar a{
+color: #f0f0f5;
+padding: 60px;
+font-size:20px;
+text-decoration: none;
+align-items: center;
+justify-content: center;
+
+}
+.navbar a:hover{
+  color: #333;
+
+}
+  .hero {
+    background-image: url('https://www.freepnglogos.com/uploads/shopping-cart-png/shopping-cart-trolley-images-pixabay-download-pictures-14.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    color: #4d15c5;
+    padding: 100px 0;
+  }
+
+  .hero h2 {
+    font-size: 36px;
+    margin: 0;
+    padding-bottom: 20px;
+  }
+
+  .btn {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  .btn:hover{
+    color: #000000;
+
+  }
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+  }
+
+  .feature {
+    text-align: center;
+  }
+
+  .feature i {
+    font-size: 48px;
+    color: #3498db;
+  }
+
+  .feature h3 {
+    margin: 10px 0;
+    font-size: 24px;
+  }
+
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
